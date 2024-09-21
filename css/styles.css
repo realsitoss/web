@@ -1,0 +1,84 @@
+/* Archivo styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fefbd8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    font-family: 'Georgia', serif;
+    color: #6b4226;
+  }
+  
+  .poema {
+    font-size: 1.5em;
+    color: #6b4226;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .poemas-largos .poema-largo {
+    font-size: 1.2em;
+    color: #6b4226;
+    margin-bottom: 20px;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  .flores-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #e76f51;
+  }
+  
+  /* Animaciones */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Estilo para los videos */
+  iframe {
+    border-radius: 10px;
+    animation: fadeInUp 2s ease-in-out;
+  }
+  
+  
